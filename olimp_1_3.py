@@ -6,7 +6,7 @@ N = int(input(f'Введите время тестирования: '))
 
 unacceptable_count = 0
 
-for _ in range(N):
+for i in range(N):
 
     reading = float(input(f'Показания датчика: '))
 
